@@ -1,1 +1,1 @@
-# st2mt
+# Splat WebGL Starter Project
