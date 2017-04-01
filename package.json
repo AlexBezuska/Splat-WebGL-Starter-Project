@@ -1,0 +1,35 @@
+{
+  "name": "Splat WebGL Starter",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "src/game.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rimraf build",
+    "electron": "webpack && node electron.js",
+    "lint": "eslint .",
+    "start": "webpack-dev-server --hot --inline --content-base build/html --host 0.0.0.0 --port 4000",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
+  "devDependencies": {
+    "cordova": "^6.3.1",
+    "electron-packager": "^7.7.0",
+    "eslint": "^3.3.1",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-json": "^1.2.0",
+    "file-loader": "^0.9.0",
+    "image-webpack-loader": "^2.0.0",
+    "json-loader": "^0.5.4",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {
+    "splat-ecs": "^7.6.0",
+    "three": "^0.84.0"
+  }
+}

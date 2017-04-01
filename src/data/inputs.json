@@ -1,0 +1,124 @@
+{
+  "axes": {
+    "left stick x": [
+      {
+        "device": "gamepad",
+        "axis": "left stick x"
+      }
+    ],
+    "left stick y": [
+      {
+        "device": "gamepad",
+        "axis": "left stick y"
+      }
+    ],
+    "right stick x": [
+      {
+        "device": "gamepad",
+        "axis": "right stick x"
+      }
+    ],
+    "right stick y": [
+      {
+        "device": "gamepad",
+        "axis": "right stick y"
+      }
+    ]
+  },
+  "buttons": {
+    "up": [
+      {
+        "device": "keyboard",
+        "button": "w"
+      },
+      {
+        "device": "keyboard",
+        "button": "up"
+      }
+    ],
+    "down": [
+      {
+        "device": "keyboard",
+        "button": "s"
+      },
+      {
+        "device": "keyboard",
+        "button": "down"
+      }
+    ],
+    "left": [
+      {
+        "device": "keyboard",
+        "button": "a"
+      },
+      {
+        "device": "keyboard",
+        "button": "left"
+      }
+    ],
+    "right": [
+      {
+        "device": "keyboard",
+        "button": "d"
+      },
+      {
+        "device": "keyboard",
+        "button": "right"
+      }
+    ],
+    "action": [
+      {
+        "device": "keyboard",
+        "button": "space"
+      },
+      {
+        "device": "gamepad",
+        "button": "a"
+      },
+      {
+        "device": "gamepad",
+        "button": "b"
+      },
+      {
+        "device": "gamepad",
+        "button": "x"
+      },
+      {
+        "device": "gamepad",
+        "button": "y"
+      },
+      {
+        "device": "gamepad",
+        "button": "left trigger"
+      },
+      {
+        "device": "gamepad",
+        "button": "right trigger"
+      },
+      {
+        "device": "gamepad",
+        "button": "left shoulder"
+      },
+      {
+        "device": "gamepad",
+        "button": "right shoulder"
+      }
+    ],
+    "hole": [
+    ],
+    "restart": [
+      {
+        "device": "gamepad",
+        "button": "home"
+      },
+      {
+        "device": "gamepad",
+        "button": "start"
+      },
+      {
+        "device": "gamepad",
+        "button": "back"
+      }
+    ]
+  }
+}
